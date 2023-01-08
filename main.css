@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  /*background-color: #4f6d7a;*/
+}
+
+::selection {
+  background: #e0e0;
+}
+
+.header {
+  font-family: archiaregular;
+  color: #000;
+}
+
+h1 {
+  font-family: 'Ubuntu', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000;
+}
+
+
+.link:hover {
+  color: #000;
+}
+
+#github_svg:hover, #linkedin_svg:hover {
+  stroke: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+}
