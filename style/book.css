@@ -6,8 +6,28 @@ html {
   /*background-color: #4f6d7a;*/
 }
 
+.link:hover {
+  color: #000;
+  text-decoration-color: #000;
+}
+
+h1 {
+  color: #000;
+  font-size: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  color: #000;
+  font-size: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 p {
   /*left align words*/
   text-align: left;
   color: #000;
+  font-size: 1em;
 }
