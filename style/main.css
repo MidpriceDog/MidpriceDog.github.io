@@ -1,6 +1,7 @@
-body, html {
+body,
+html {
   height: 100%;
-  background-color: #fff;
+  background-color: #b6b695;
   overflow: hidden;
   text-align: center;
   text-decoration: none;
@@ -17,7 +18,6 @@ body, html {
 }
 
 h1 {
-  font-family: 'Ubuntu', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #000;
 }
 
@@ -26,16 +26,12 @@ h1 {
   color: #000;
 }
 
-#github_svg:hover, #linkedin_svg:hover {
-  stroke: #000;
-}
-
 a:hover {
   text-decoration: none;
 }
 
 
 p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #000;
+  font-size: 5em;
 }

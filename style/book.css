@@ -1,0 +1,13 @@
+body,
+html {
+  height: 100%;
+  background-color: #fff;
+  text-decoration: none;
+  /*background-color: #4f6d7a;*/
+}
+
+p {
+  /*left align words*/
+  text-align: left;
+  color: #000;
+}
