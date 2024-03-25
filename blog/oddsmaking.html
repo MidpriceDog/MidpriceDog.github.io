@@ -58,26 +58,26 @@
     </p>
 
     <pre><code>
-      def vig(odds_arr):
-    """Calculate vig based on odds offered
-    Parameters
-    ----------
-    odds_arr : list
-        Odds being offered by a sportsbook
-    Returns
-    -------
-    float
-        Vig collected by the sportsbook
-    """
-    imp_prob_list = []
-    for odds in odds_arr:
-        if odds > 0:
-            # uses formula 1-p/p = odds/100
-            implied_prob = 100/(100+odds)
-        else:
-            implied_prob = abs(odds)/((abs(odds) + 100))
-        imp_prob_list.append(implied_prob)
-    return sum(imp_prob_list) - 1
+    def vig(odds_arr):
+      """Calculate vig based on odds offered
+      Parameters
+      ----------
+      odds_arr : list
+          Odds being offered by a sportsbook
+      Returns
+      -------
+      float
+          Vig collected by the sportsbook
+      """
+      imp_prob_list = []
+      for odds in odds_arr:
+          if odds > 0:
+              # uses formula 1-p/p = odds/100
+              implied_prob = 100/(100+odds)
+          else:
+              implied_prob = abs(odds)/((abs(odds) + 100))
+          imp_prob_list.append(implied_prob)
+      return sum(imp_prob_list) - 1
 
     </code></pre>
 
@@ -86,7 +86,8 @@
       on any straight bet placed i.e. bet placed on the outright winner/loser of a game) pretty easily.
     </p>
 
-    <img src="../assets/vig.jpeg" style="width: 100%; height: auto; padding : 2em">
+    <img src="../assets/vig.jpeg"
+      style="width: 100%; height: auto; padding-bottom: 2em; padding-top: 2em; padding-left: 10em; padding-right: 10em;">
 
     <h1 id="odds">How Are Odds Set?</h1>
 
